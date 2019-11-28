@@ -1,6 +1,6 @@
 ---
 title: "Working with data in elite sport"
-date: "Dr Jacquie Tran &nbsp; | &nbsp; @jacquietran | &nbsp; 15 May 2019"
+date: "Dr Jacquie Tran &nbsp; | &nbsp; @jacquietran | &nbsp; 29 Nov 2019"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -31,7 +31,7 @@ library(here)
 # Define custom css
 extra_css <- list(
   ".title-slide" = list(
-    "background-image" = "url(https://raw.githubusercontent.com/jacquietran/2019_essa_forum/master/images/titlebg.jpg)",
+    "background-image" = "url(https://raw.githubusercontent.com/jacquietran/2019_stats_teachers_day/master/images/titlebg.jpg)",
     "background-size" = "cover"),
   ".button" = list(
     display = "inline-block",
@@ -66,14 +66,15 @@ extra_css <- list(
 # Define xaringan theme
 mono_light(
   base_color = ghibli_palette("YesterdayDark")[2],
-  header_font_google = google_font("Fredericka the Great"),
+  header_font_google = google_font("Raleway", "900"),
   header_h1_font_size = "65px",
   header_h2_font_size = "50px",
   header_h3_font_size = "40px",
-  # header_font_weight = "bold",
+  header_font_weight = "bold",
   text_font_google   = google_font("Montserrat", "400", "400i", "400b"),
   text_font_size = "26px",
-  code_font_google   = google_font("Droid Mono"),
+  code_font_family   = "Fira Code",
+  code_font_url = "https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css",
   padding = "0em 2em 1em 2em",
   footnote_color = "#666666",
   footnote_font_size = "0.5em",
@@ -84,7 +85,7 @@ mono_light(
 ```
 
 class: right, middle
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/rladiesbg.png)
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_stats_teachers_day/master/images/uofabg.png)
 background-size: cover
 
 --
@@ -260,23 +261,23 @@ We need to (learn to) work accurately and efficiently with high-resolution data.
 
 --
 
-Determine the need through collaboration
+**Determine the need** through collaboration
 
 --
 
-Articulate the need as a question
+Articulate the need as a **question**
 
 --
 
-Scope out the 'minimum viable product'
+Scope out the **"minimum viable product"**
 
 --
 
-Allow time for peer review
+Allow time for **peer review**
 
 --
 
-Communicate the findings in appropriate ways
+**Communicate insights** in appropriate ways
 
 ---
 class: inverse, center, middle

@@ -17,19 +17,19 @@
  *
  * ------------------------------------------------------- */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,400i,400b);
-@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
-@import url(https://fonts.googleapis.com/css?family=Droid+Mono);
+@import url(https://fonts.googleapis.com/css?family=Raleway:900);
+@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
 
 
 body {
   font-family: Montserrat, 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
   font-weight: 400;
-  color: #071118;
+  color: #071119;
 }
 h1, h2, h3 {
-  font-family: Fredericka the Great;
-  font-weight: normal;
-  color: #0A1923;
+  font-family: Raleway;
+  font-weight: bold;
+  color: #0B1924;
 }
 .remark-slide-content {
   background-color: #E6E8E9;
@@ -49,25 +49,25 @@ h1, h2, h3 {
     font-size: 40px;
 }
 .remark-code, .remark-inline-code {
-  font-family: Droid Mono, 'Lucida Console', Monaco, monospace;
+  font-family: 'Fira Code', 'Lucida Console', Monaco, monospace;
 }
 .remark-code {
   font-size: 0.9em;
 }
 .remark-inline-code {
   font-size: 1em;
-  color: #0A1923;
+  color: #0B1924;
   
   
 }
 .remark-slide-number {
-  color: #0A1923;
+  color: #0B1924;
   opacity: 1;
   font-size: 0.9em;
 }
-strong{color:#0A1923;}
+strong{color:#0B1924;}
 a, a > code {
-  color: #0A1923;
+  color: #0B1924;
   text-decoration: none;
 }
 .footnote {
@@ -81,7 +81,7 @@ a, a > code {
   background-color: rgba(255,255,0,0.5);
 }
 .inverse {
-  background-color: #0A1923;
+  background-color: #0B1924;
   color: #E6E8E9;
   
 }
@@ -92,7 +92,7 @@ a, a > code {
   color: #E6E8E9;
 }
 .title-slide {
-  background-color: #0A1923;
+  background-color: #0B1924;
   
   
   
@@ -107,10 +107,10 @@ a, a > code {
   float: left;
 }
 .left-column h2, .left-column h3 {
-  color: #0A192399;
+  color: #0B192499;
 }
 .left-column h2:last-of-type, .left-column h3:last-child {
-  color: #0A1923;
+  color: #0B1924;
 }
 .right-column {
   width: 75%;
@@ -132,7 +132,7 @@ img, video, iframe {
   max-width: 100%;
 }
 blockquote {
-  border-left: solid 5px #0A192380;
+  border-left: solid 5px #0B192480;
   padding-left: 1em;
 }
 .remark-slide table {
@@ -145,7 +145,7 @@ th, td { padding: 5px; }
 .remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #CED1D3 }
 table.dataTable tbody {
   background-color: #E6E8E9;
-  color: #071118;
+  color: #071119;
 }
 table.dataTable.display tbody tr.odd {
   background-color: #E6E8E9;
@@ -157,10 +157,10 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
-  color: #071118;
+  color: #071119;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button {
-  color: #071118 !important;
+  color: #071119 !important;
 }
 
 @page { margin: 0; }
@@ -177,7 +177,7 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 
 /* Extra CSS */
 .title-slide {
-  background-image: url(https://raw.githubusercontent.com/jacquietran/2019_essa_forum/master/images/titlebg.jpg);
+  background-image: url(https://raw.githubusercontent.com/jacquietran/2019_stats_teachers_day/master/images/titlebg.jpg);
   background-size: cover;
 }
 .button {
